@@ -1,0 +1,91 @@
+.banner {
+    position: relative;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.banner-img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.banner-text{
+    position: absolute;
+    font-size: 6vw;
+    line-height: 100%;
+    font-weight: bold;
+    color: white;
+    top: 5%;
+    margin-left: 0%;
+    text-shadow: 1px 1px 20px #000000;
+    padding: 8px 16px!important;
+}
+
+@media screen and (max-width: 575px) {
+    .banner{
+        display: none;
+    }
+}
+
+.banner-align {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 2080px;  
+    width: 100%;
+}
+
+.dont-have-account {
+    font-size: small;
+}
+
+.entrar{
+    width: fit-content !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wordcloud {
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.content-box-white{
+    background-image: url("../../static/empresas/img/white-bg.png");
+    background-size: cover;
+    background-position: center top;
+}
+
+.registar{
+    width: 33ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button-registo{
+    text-decoration: none;
+}
+
+.banner-text > p{
+    animation-name: changecolor;
+    animation-duration: 3s;
+}
+
+.banner-text > p > a{
+    animation-name: changecolor2;
+    animation-duration: 3s;
+}
+
+@keyframes changecolor {
+    0% {color: rgba(255, 255, 255);}
+    50% {color: #00ADB5;}
+    100% {color: rgba(255, 255, 255);}
+}
+
+@keyframes changecolor2 {
+    0% {color: rgba(255, 255, 255);}
+    50% {color: #FF5722;}
+    100% {color: rgba(255, 255, 255);}
+}
